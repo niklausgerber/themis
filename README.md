@@ -49,7 +49,7 @@ Nothing to do here. jquery-1.7.1.min.js helps to power the theme, jquery.backstr
 Make sure you copy the .htaccess file. It will make sure no one can snoop your content folders.
 
 ### /content/01-articles
-Contains your photos. I added some examplesto give you a head start. For each photo article you must fill the details in the article.txt and give at least one tag. Please make sure that your tags have no spaces inside a tag. You can multiple comma separated tags (Tag1, Tag2, Tag3 etc.). Also you must upload your photo. I suggest that the images should be at least 1024 × 768 pixels. You can upload JPEG, GIF or PNG.
+Contains your photos. I added some examples to give you a head start. For each photo article you must fill the details in the article.txt and give at least one tag. Please make sure that your tags have no spaces inside a tag. You can multiple comma separated tags (Tag1, Tag2, Tag3 etc.). Also you must upload your photo. I suggest that the images should be at least 1024 × 768 pixels. You can upload JPEG, GIF or PNG.
 
 ### /content/home
 Your error page. Please update the description according to your site.txt file.
