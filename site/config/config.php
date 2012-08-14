@@ -21,7 +21,7 @@ http://getkirby.com/license
 
 */
 
-c::set('license', '4ca1876f0d5df137d705ed22bbd20b49');
+c::set('license', 'your license key');
 
 
 /* 
@@ -37,10 +37,41 @@ or you need to set it on your own, do it like this:
 c::set('url', 'http://yourdomain.com');
 
 Make sure to write the url without a trailing slash.
+
+To work with relative URLs, you can set the URL like this:
+
+c::set('url', '/');
  
 */
 
 c::set('url', false);
+
+
+/* 
+
+---------------------------------------
+Subfolder Setup
+---------------------------------------
+
+Kirby will automatically try to detect the subfolder
+
+i.e. http://yourdomain.com/subfolder
+
+This might fail depending on your server setup. 
+In such a case, please set the correct subfolder here. 
+
+You must also set the right url then:
+
+c::set('url', 'http://yoururl.com/subfolder');
+
+if you are using the .htaccess file, make sure to 
+set the right RewriteBase there as well:
+
+RewriteBase /subfolder
+ 
+*/
+
+c::set('subfolder', false);
 
 
 /* 
@@ -59,29 +90,6 @@ http://yourdomain.com/index.php/about
 */
 
 c::set('rewrite', true);
-
-
-/* 
-
----------------------------------------
-Subfolder Setup
----------------------------------------
-
-if you run the site in a subfolder of your domain
-define the name of that subfolder here. 
-
-You must also set the right url in that case:
-
-c::set('url', 'http://yoururl.com/subfolder');
-
-if you are using the .htaccess file, make sure to 
-set the right RewriteBase there as well:
-
-RewriteBase /subfolder
- 
-*/
-
-c::set('subfolder', false);
 
 
 /* 
@@ -138,11 +146,15 @@ Markdown Setup
 ---------------------------------------
 
 to disable automatic line breaks in markdown
-set this to false
+set this to false. 
+
+You can also switch between regular markdown
+or markdown extra: http://michelf.com/projects/php-markdown/extra/
 
 */
 
-c::set('markdown.break', true);
+c::set('markdown.breaks', true);
+c::set('markdown.extra', false);
 
 
 /*
@@ -210,9 +222,9 @@ c::set('cache.ignore', array('search', 'some/other/uri/to/ignore'));
 
 c::set('cache', false);
 c::set('cache.autoupdate', true);
-c::set('cache.data', false);
-c::set('cache.html', false);
-c::set('cache.ignore', array('sitemap'));
+c::set('cache.data', true);
+c::set('cache.html', true);
+c::set('cache.ignore', array());
 
 
 /*
@@ -228,7 +240,7 @@ Please read more about it at: http://php.net/manual/en/function.date-default-tim
 
 */ 
 
-c::set('timezone', 'UTC+1');
+c::set('timezone', 'UTC');
 
 
 /*
@@ -262,7 +274,7 @@ php errors there.
 
 */
 
-c::set('debug', false);
+c::set('debug', true);
 
 
 /* 
@@ -317,4 +329,56 @@ custom config by specific rules for that host.
 
 */
 
-?>
+
+/* 
+
+---------------------------------------
+Multi-Language support setup
+---------------------------------------
+
+If you want to run a site with multiple languages, 
+enable support for it here. As soon as you set
+
+c::set('lang.support', true); 
+
+Kirby will automatically create language-dependent 
+URLs like:
+
+http://yourdomain.com/en/blog
+
+or 
+
+http://yourdomain.com/de/blog
+
+Make sure to set the default language code and 
+also the available language codes. 
+
+If you keep…
+
+c::set('lang.detect', true);
+
+Kirby will try to detect the default language 
+from the user agent string instead of using the
+default language. 
+
+*/
+
+c::set('lang.support', false);
+c::set('lang.default', 'en');
+c::set('lang.available', array('en', 'de'));
+c::set('lang.detect', true);
+
+
+/* 
+
+---------------------------------------
+Content File Extension
+---------------------------------------
+
+Change the default file extension for your
+content files here if you'd rather use something
+else than txt. For example md or mdown. 
+
+*/
+
+c::set('content.file.extension', 'txt');
