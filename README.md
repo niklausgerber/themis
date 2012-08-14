@@ -13,16 +13,16 @@ themis is an open source theme for [Kirby CMS](http://getkirby.com). It is respo
 - Oh and it is free
 
 ## Kirby CMS
-Kirby is a file-based CMS. Easy to setup, easy to use, flexible as hell. You will need to download Kirby and install it on your server. Once you are set you can start with the installation of monochrome.
+Kirby is a file-based CMS. Easy to setup, easy to use, flexible as hell. You will need to download Kirby and install it on your server. Once you are set you can start with the installation of themis.
 
 ## Step one | Installation
-[Download the monochrome theme from GitHub](https://github.com/niklausgerber/themis/zipball/master). Delete the content of those three folders of your Kirby installation.
+[Download the themis theme from GitHub](https://github.com/niklausgerber/themis/zipball/master). Delete the content of those three folders of your Kirby installation.
 
 - /assets
 - /content
 - /site
 
-Drag the themis theme with all its files to your kirby installation and replace existing files with them. Make sure you also copy the .htaccess files. If you now upload your kirby installation to your server the monochrome theme should be up and running.
+Drag the themis theme with all its files to your kirby installation and replace existing files with them. Make sure you also copy the .htaccess files. If you now upload your kirby installation to your server the themis theme should be up and running.
 
 ## Step two | Configuration
 I will quickly guide you through the different folders and explain you which settings you will have to change and which settings need optional modification.
@@ -93,13 +93,13 @@ Your home page.
 ### Credits
 Please support humans.txt (http://humanstxt.org/). It's an initiative for knowing the people behind a website. It's a TXT file that contains information about the different people who have contributed to building the website.
 
-	monochrome Theme: https://github.com/niklausgerber/themis
+	themis Theme: https://github.com/niklausgerber/themis
 	Niklaus Gerber
 	Twitter: @niklausgerber
 	URL: http://niklausgerber.com
 	Location: Bern, Switzerland
 	
-If you are happy with monochrome please link to http://niklausgerber.com & follow me on [Twitter](http://twitter.com/niklausgerber).
+If you are happy with themis please link to http://niklausgerber.com & follow me on [Twitter](http://twitter.com/niklausgerber).
 
 ### Licences
 themis by Niklaus Gerber is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
