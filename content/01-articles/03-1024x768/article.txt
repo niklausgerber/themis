@@ -1,0 +1,5 @@
+Title: 1024x768
+----
+Description: The description of the photography.
+----
+Tags: 1024x768

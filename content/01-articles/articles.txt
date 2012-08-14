@@ -1,0 +1,3 @@
+Title: Your site title
+----
+Description: 160 character description about you. Please update the description according to your site.txt file.

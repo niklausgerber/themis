@@ -1,0 +1,13 @@
+Title: Your site title
+----
+Description: 160 character description about you.
+----
+Name: Your Full Name
+----
+Address: Musterstrasse 23c, CH-3000 Bern, Switzerland
+----
+Mail: mail@domain.com
+----
+Author: Your Name | http://yourdomain.com
+----
+Copyright: © 2011-2012 Your Name, all rights reserved.

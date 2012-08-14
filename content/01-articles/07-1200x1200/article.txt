@@ -1,0 +1,5 @@
+Title: 1200x1200
+----
+Description: The description of the photography.
+----
+Tags: 1200x1200

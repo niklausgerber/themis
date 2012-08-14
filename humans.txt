@@ -1,0 +1,37 @@
+/* Theme */
+	Niklaus Gerber
+	Twitter: @niklausgerber
+	URL: http://niklausgerber.com/
+	From: Bern, Switzerland
+
+/* THANKS */
+	Bastian Allgeier
+	Twitter: @bastianallgeier
+	URL: http://bastianallgeier.com/
+	From: Mannheim, Germany		
+	
+/* FONTS */
+	via Google Webfonts	
+
+	Lato by Łukasz Dziedzic
+	Specimens: http://www.google.com/webfonts/specimen/Lato
+	
+	Merriweather by Eben Sorkin
+	Specimens: http://www.google.com/webfonts/specimen/Merriweather
+	
+	Open Sans by Steve Matteson
+	Specimens: http://www.google.com/webfonts/specimen/Open+Sans
+	
+	
+/* SITE */	
+	Standards: HTML, CSS
+	Doctype: HTML
+	Language: english
+	Components: jQuery                      
+	Powered by: http://getkirby.com/
+	
+	jQuery Backstretch
+	http://srobbin.com/jquery-plugins/jquery-backstretch/
+	
+	jQuery Wookmark plugin 0.5
+	www.wookmark.com
