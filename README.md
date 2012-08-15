@@ -13,7 +13,7 @@ themis is an open source theme for [Kirby CMS](http://getkirby.com). It is respo
 - Oh and it is free
 
 ## Kirby CMS
-Kirby is a file-based CMS. Easy to setup, easy to use, flexible as hell. You will need to download Kirby and install it on your server. Once you are set you can start with the installation of themis.
+Kirby is a file-based CMS. Easy to setup, easy to use, flexible as hell. You will need to download Kirby and install it on your server. Once you are set you can start with the installation of monochrome. [You are free to use and modify this theme, but you must purchase a Kirby license if you want to use it in production](http://getkirby.com/buy).
 
 ## Step one | Installation
 [Download the themis theme from GitHub](https://github.com/niklausgerber/themis/zipball/master). Delete the content of those three folders of your Kirby installation.
