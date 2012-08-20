@@ -56,8 +56,5 @@
 <link rel="apple-touch-icon" sizes="72x72" href="<?php echo url('assets/images/icons/iOS/apple-touch-icon-72x72.png') ?>" />
 <link rel="apple-touch-icon" sizes="114x114" href="<?php echo url('assets/images/icons/iOS/apple-touch-icon-114x114.png') ?>" />
 
-<!--Orddrop-->
-<?php echo js('assets/js/orddrop.j') ?>
-
 </head>
 <body>
