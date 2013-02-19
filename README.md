@@ -77,7 +77,7 @@ The complete footer of your page. Please change it at will but I am happy if you
 Didn't want to load the same scripts so I made a separate snippet. Please change it at will but I am happy if you leave the comment on the last line.
 
 ### /site/snippets/header.php
-The complete footer of your page. Please change it at will.
+The complete header of your page. Please change it at will.
 
 ### /site/templates/article.php
 Style of the photo detail page.
