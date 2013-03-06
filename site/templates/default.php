@@ -33,7 +33,7 @@ $tags = tagcloud($blog);
 		These are our grid items. Notice how each one has classes assigned that
 		are used for filtering. The classes match the "data-filter" properties above.
 		-->
-		<? if(param('tag')) {
+		<?php if(param('tag')) {
 		
 		$articles = $pages->find('articles')
 							->children()
