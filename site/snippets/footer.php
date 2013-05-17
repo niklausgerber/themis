@@ -55,7 +55,7 @@ $(document).ready(new function() {
 		for(; i<length; i++) {
 			li = $(lis[i]);
 			if(li.hasClass('active')) {
-				filters.push('#tiles li.'+li.attr('data-filter'));
+				filters.push('.'+li.attr('data-filter'));
 			}
 		}
 		
@@ -65,7 +65,7 @@ $(document).ready(new function() {
 		}
 		
 		// Finalize our filter selector for jQuery.
-		filter = filters.join(', ');
+		filter = filters.join('');
 		
 		// If the filter has changed, update the layout.
 		if(oldFilter != filter) {
